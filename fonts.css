@@ -1,4 +1,4 @@
-/* cyrillic-ext */
+ /* cyrillic-ext */
 @font-face {
     font-family: 'Ubuntu Mono';
     font-style: normal;
@@ -52,3 +52,24 @@
     src: url(https://ilovegdps.pages.dev/fonts/KFOjCneDtsqEr0keqCMhbCc6CsQ.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
+
+/* Basic styles for the embed */
+        #embed-container {
+            border: 2px solid #007bff; /* Blue border */
+            border-radius: 8px; /* Rounded corners */
+            padding: 20px; /* Padding inside the container */
+            width: 100%; /* Full width */
+            max-width: 600px; /* Max width */
+            margin: 20px auto; /* Center the embed */
+            text-align: center; /* Center text */
+            background-color: #f9f9f9; /* Light background color */
+        }
+        #embed-title {
+            font-size: 1.8em; /* Title font size */
+            color: #007bff; /* Title color */
+            margin-bottom: 10px; /* Space below the title */
+        }
+        #embed-content {
+            font-size: 1em; /* Content font size */
+            color: #333; /* Content color */
+        }
